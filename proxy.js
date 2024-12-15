@@ -9,8 +9,8 @@ const PORT = 3000;
 app.use(cors());
 
 // API-ключи
-const weatherApiKey = "e05b9a69-4d44-4663-88d5-d27f38a66c1e"; // Yandex Weather API
-const geocodeApiKey = "780ed94d-9901-411b-9f11-529fd08f2fda"; // 2GIS API
+const weatherApiKey =  // Yandex Weather API
+const geocodeApiKey =  // 2GIS API
 
 // Маршрут для геокодирования (адрес -> координаты)
 app.get("/geocode", async (req, res) => {
